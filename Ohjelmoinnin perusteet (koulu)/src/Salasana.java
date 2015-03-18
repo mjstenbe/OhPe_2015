@@ -11,10 +11,10 @@ public class Salasana {
 			boolean tarkastus;
 
 			do {
-				System.out.println("Anna käyttäjä: ");
+				System.out.println("Annas käyttäjä: ");
 				tunnus = lukija.nextLine();
 
-				System.out.println("Anna salasana");
+				System.out.println("Annapa salasana");
 				salasana = lukija.nextLine();
 
 				// tallennetaan vertailun tulos tarkastus-muuttujaan
@@ -33,7 +33,7 @@ public class Salasana {
 
 			System.out.println("Kirjautuminen onnistui");
 		}
-	}
+	
 
 	
 }
